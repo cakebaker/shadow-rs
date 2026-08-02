@@ -16,7 +16,7 @@ ALL_TOOLS = $(SETUID_TOOLS) $(ROOT_TOOLS)
 all: build
 
 build:
-	cargo build --release --workspace --bins --exclude shadow-rs
+	cargo build --release --workspace --bins --exclude uu_shadow
 
 build-multicall:
 	cargo build --release --bin shadow-rs

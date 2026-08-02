@@ -668,31 +668,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "shadow-rs"
-version = "0.2.0"
-dependencies = [
- "clap",
- "clap_complete",
- "rustix",
- "shadow-core",
- "tempfile",
- "uu_chage",
- "uu_chfn",
- "uu_chpasswd",
- "uu_chsh",
- "uu_groupadd",
- "uu_groupdel",
- "uu_groupmod",
- "uu_grpck",
- "uu_newgrp",
- "uu_passwd",
- "uu_pwck",
- "uu_useradd",
- "uu_userdel",
- "uu_usermod",
-]
-
-[[package]]
 name = "smallvec"
 version = "1.15.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -962,6 +937,31 @@ dependencies = [
  "shadow-core",
  "tempfile",
  "uucore",
+]
+
+[[package]]
+name = "uu_shadow"
+version = "0.2.0"
+dependencies = [
+ "clap",
+ "clap_complete",
+ "rustix",
+ "shadow-core",
+ "tempfile",
+ "uu_chage",
+ "uu_chfn",
+ "uu_chpasswd",
+ "uu_chsh",
+ "uu_groupadd",
+ "uu_groupdel",
+ "uu_groupmod",
+ "uu_grpck",
+ "uu_newgrp",
+ "uu_passwd",
+ "uu_pwck",
+ "uu_useradd",
+ "uu_userdel",
+ "uu_usermod",
 ]
 
 [[package]]
